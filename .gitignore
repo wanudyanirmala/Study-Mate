@@ -1,0 +1,65 @@
+
+# Gradle
+.gradle/
+build/
+**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Local SDK configuration
+local.properties
+
+# Android build outputs
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Kotlin
+*.class
+.kotlin/
+
+# Signing keys and credentials
+*.jks
+*.keystore
+keystore.properties
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Firebase / Google services
+# Uncomment if you don't want to commit this configuration
+# google-services.json
+
+# Android Studio profiling
+*.hprof
+*.prof
+
+# Version control
+# Do not ignore .git itself
